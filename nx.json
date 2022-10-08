@@ -4,6 +4,9 @@
   "affected": {
     "defaultBase": "main"
   },
+  "implicitDependencies": {
+    "package.json": "*"
+  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
