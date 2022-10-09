@@ -28,7 +28,6 @@
       "inputs": [
         "default",
         "^production",
-        "{workspaceRoot}/jest.preset.ts",
         "{workspaceRoot}/jest.preset.js",
         "{workspaceRoot}/jest.preset.js"
       ]
@@ -51,10 +50,9 @@
     "@nrwl/js:library": {
       "buildable": true,
       "publishable": true,
-      "importPath": "{{npmScope}}/{{projectName}}",
       "bundler": "esbuild",
       "strict": true,
-      "tags": "scope:{{projectName}},type:library"
+      "tags": "type:library"
     }
   },
   "workspaceLayout": {
